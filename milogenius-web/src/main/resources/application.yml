@@ -17,7 +17,7 @@ server:
     context-path: /miloweb
 
 
-  # 模板引擎
+# 模板引擎
 spring:
   thymeleaf:
     mode: HTML
@@ -26,3 +26,12 @@ spring:
     cache: false
     prefix: classpath:/templates/views/
     suffix: .html
+
+#资源路径
+web:
+  #静态资源
+  staticUrl: http://www.milogenius.com/static/
+  #文件上传
+  uploadFileUrl:
+  #全局地址
+  globalUrl: http://www.milogenius.com/miloweb/

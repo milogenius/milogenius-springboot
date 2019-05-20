@@ -1,5 +1,6 @@
 package com.milo.web.controller;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -8,12 +9,16 @@ import org.springframework.web.bind.annotation.RestController;
  * @create: 2019-05-17 14:32
  * @description:
  **/
-@RestController
+@Controller
 public class HelloController {
 
     @RequestMapping("/hello")
-    private String index(){
+    private String hello(){
         return "Hello World!";
     }
 
+    @RequestMapping("index")
+    public String index(){
+        return "index";
+    }
 }
