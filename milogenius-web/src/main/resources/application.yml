@@ -1,37 +1,36 @@
-# ÏîÄ¿Ïà¹ØÅäÖÃ
+#é¡¹ç›®ç›¸å…³é…ç½®
 milocweb:
-  # Ãû³Æ
+  #åç§°
   name: MiloWeb
-  # °æ±¾
+  #å¹´ä»½
   version: 1.0.0
-  # °æÈ¨Äê·İ
+  #ç‰ˆæƒå¹´ä»½
   copyrightYear: 2019
-  # ÎÄ¼şÉÏ´«Â·¾¶
+  #æ–‡ä»¶ä¸Šä¼ è·¯å¾„
   profile: D:/profile/
 
-# ¿ª·¢»·¾³ÅäÖÃ
+#å¼€å‘ç¯å¢ƒé…ç½®
 server:
   port: 8888
   servlet:
-    # ÏîÄ¿contextPath
     context-path: /miloweb
 
 
-# Ä£°åÒıÇæ
+#æ¨¡æ¿å¼•æ“
 spring:
   thymeleaf:
     mode: HTML
     encoding: utf-8
-    # ½ûÓÃ»º´æ
+    #ç¦ç”¨ç¼“å­˜
     cache: false
     prefix: classpath:/templates/views/
     suffix: .html
 
-#×ÊÔ´Â·¾¶
+#èµ„æºè·¯å¾„
 web:
-  #¾²Ì¬×ÊÔ´
+  #é™æ€èµ„æº
   staticUrl: http://www.milogenius.com/static/
-  #ÎÄ¼şÉÏ´«
+  #æ–‡ä»¶ä¸Šä¼ 
   uploadFileUrl:
-  #È«¾ÖµØÖ·
+  #å…¨å±€åœ°å€
   globalUrl: http://www.milogenius.com/miloweb/
