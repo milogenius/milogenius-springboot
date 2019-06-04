@@ -25,6 +25,11 @@ spring:
     cache: false
     prefix: classpath:/templates/views/
     suffix: .html
+  # 服务模块
+  devtools:
+    restart:
+      # 热部署开关
+      enabled: true
 
 #资源路径
 web:
