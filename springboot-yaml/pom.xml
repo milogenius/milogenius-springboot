@@ -8,7 +8,7 @@
 		<version>1.0.0</version>
 	</parent>
 	<groupId>com.milo</groupId>
-	<artifactId>milogenius-yaml</artifactId>
+	<artifactId>springboot-yaml</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>milogenius-yaml</name>
 	<description>SpringBoot中YAML语法学习</description>

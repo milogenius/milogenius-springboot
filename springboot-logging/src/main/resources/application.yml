@@ -1,0 +1,13 @@
+
+# 开发环境配置
+server:
+  port: 8083
+  servlet:
+    # 项目contextPath
+    context-path: /milo
+
+
+#日志配置
+logging:
+   config: classpath:log/logback-spring.xml
+   path: D:/nmyslog/nmys

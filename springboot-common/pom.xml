@@ -8,10 +8,10 @@
 		<version>1.0.0</version>
 	</parent>
 	<groupId>com.milo</groupId>
-	<artifactId>milogenius-common</artifactId>
+	<artifactId>springboot-common</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
-	<name>milogenius-common</name>
+	<name>springboot-common</name>
 	<description>公共模块</description>
 
 	<properties>

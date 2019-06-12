@@ -1,5 +1,6 @@
 package com.milo.redis.controller;
 
+import com.milo.redis.config.service.IRedisService;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -17,25 +18,19 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("redis")
 public class RedisController {
 
-    /**
-     * 存储字符串类型
-     */
-    @Autowired
-    private StringRedisTemplate stringRedisTemplate;
 
     /**
      * 存储对象类型
      */
     @Autowired
-    private RedisTemplate redisTemplate;
+    private IRedisService redisService;
 
 
     @RequestMapping("index1")
     @ResponseBody
     public String test1(){
         String s = "milo";
-        redisTemplate.opsForValue().set("milo", s);
-
+        redisService.set("milo", s);
         return "milo";
     }
 }

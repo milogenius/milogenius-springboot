@@ -19,8 +19,11 @@
 	<modules>
 		<module>milogenius-common</module>
 		<module>milogenius-web</module>
-		<module>milogenius-yaml</module>
-		<module>milogenius-redis</module>
+		<module>springboot-yaml</module>
+		<module>springboot-redis</module>
+		<module>springboot-restful</module>
+		<module>springboot-logging</module>
+		<module>springboot-mytatis</module>
 	</modules>
 
 	<properties>
