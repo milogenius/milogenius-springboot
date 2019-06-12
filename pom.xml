@@ -17,13 +17,13 @@
 
 	<!--模块管理-->
 	<modules>
-		<module>springboot-common</module>
-		<module>springboot-web</module>
-		<module>springboot-yaml</module>
-		<module>springboot-redis</module>
-		<module>springboot-restful</module>
-		<module>springboot-logging</module>
-		<module>springboot-mytatis</module>
+		<module>spring-boot-common</module>
+		<module>spring-boot-web</module>
+		<module>spring-boot-yaml</module>
+		<module>spring-boot-redis</module>
+		<module>spring-boot-restful</module>
+		<module>spring-boot-logging</module>
+		<module>spring-boot-mytatis</module>
 	</modules>
 
 	<properties>

@@ -8,9 +8,9 @@
 		<version>1.0.0</version>
 	</parent>
 	<groupId>com.milo</groupId>
-	<artifactId>springboot-logging</artifactId>
+	<artifactId>spring-boot-logging</artifactId>
 	<version>1.0.0</version>
-	<name>springboot-logging</name>
+	<name>spring-boot-logging</name>
 	<description>SpringBoot整合日志框架</description>
 
 	<properties>

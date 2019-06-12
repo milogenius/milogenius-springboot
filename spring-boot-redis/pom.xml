@@ -8,9 +8,9 @@
 		<version>1.0.0</version>
 	</parent>
 	<groupId>com.milo</groupId>
-	<artifactId>springboot-redis</artifactId>
+	<artifactId>spring-boot-redis</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot-redis</name>
+	<name>spring-boot-redis</name>
 	<description>Spring Boot整合redis</description>
 
 	<properties>
