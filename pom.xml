@@ -24,7 +24,6 @@
 		<module>springboot-restful</module>
 		<module>springboot-logging</module>
 		<module>springboot-mytatis</module>
-		<module>springboot-rabbitmq</module>
 	</modules>
 
 	<properties>

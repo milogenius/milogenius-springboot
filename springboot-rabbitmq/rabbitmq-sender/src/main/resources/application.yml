@@ -1,0 +1,17 @@
+
+# 开发环境配置
+server:
+  port: 8083
+  servlet:
+    # 项目contextPath
+    context-path: /milo
+
+spring:
+   application:
+   name: spirng-boot-rabbitmq-sender
+   #rabbitmq配置
+   rabbitmq:
+   host: 127.0.0.1
+   port: 5672
+   username: guest
+   password: guest
