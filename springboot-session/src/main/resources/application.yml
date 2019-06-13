@@ -1,0 +1,15 @@
+
+# 开发环境配置
+server:
+  port: 8085
+  servlet:
+    # 项目contextPath
+    context-path: /milo
+
+
+spring:
+  redis:
+    database: 0
+    host: 127.0.0.1
+    password: milo
+    port: 6379

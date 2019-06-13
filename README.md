@@ -7,5 +7,6 @@ springboot学习项目
 - springboot-redis:8082
 - rabbitmq-sender:8083
 - rabbitmq-receiver:8084
+- springboot-session:8085
 - springboot-restful:8889
 
