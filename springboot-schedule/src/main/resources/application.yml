@@ -1,0 +1,7 @@
+
+# 开发环境配置
+server:
+  port: 8086
+  servlet:
+    # 项目contextPath
+    context-path: /milo

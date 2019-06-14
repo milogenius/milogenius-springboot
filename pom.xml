@@ -24,6 +24,9 @@
 		<module>springboot-restful</module>
 		<module>springboot-logging</module>
 		<module>springboot-mytatis</module>
+		<module>springboot-session</module>
+		<module>springboot-schedule</module>
+		<module>springboot-jpa</module>
 	</modules>
 
 	<properties>
