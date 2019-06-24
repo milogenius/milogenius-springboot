@@ -10,5 +10,6 @@ springboot学习项目
 - springboot-session:8085
 - springboot-schedule:8086
 - springboot-jpa:8087
+- springboot-threadpool:8088
 - springboot-restful:8889
 
