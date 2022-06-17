@@ -31,7 +31,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
-		<fastjson.version>1.2.50</fastjson.version>
+		<fastjson.version>1.2.83</fastjson.version>
 	</properties>
 	<!--集中管理模块的版本号-->
 	<dependencyManagement>
